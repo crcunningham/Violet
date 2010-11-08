@@ -1,0 +1,9 @@
+A generic core data based cocoa application template. 
+
+Contains:
+
+- Drag and drop outline view
+- Library chooser with spolight library search
+- Preferences window
+- Generic bottom bar with +/- buttons
+
