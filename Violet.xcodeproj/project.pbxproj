@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		770B37ED0679A11B001EADE2 /* Violet_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Violet_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		901523B012416135003EAC45 /* CCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 901523AF12416135003EAC45 /* CCNode.m */; };
+		901523B3124161C8003EAC45 /* CCGroupNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 901523B2124161C8003EAC45 /* CCGroupNode.m */; };
+		901523B61241622F003EAC45 /* CCItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 901523B51241622F003EAC45 /* CCItemNode.m */; };
+		904FC68A1242CB7900EFB59A /* BottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 904FC6891242CB7900EFB59A /* BottomBar.png */; };
+		906284081243183300965E9F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906284071243183300965E9F /* Quartz.framework */; };
+		9070B92C124169EC001F7510 /* CCOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070B92B124169EC001F7510 /* CCOutlineView.m */; };
+		9076F2E81245329A00E760A7 /* CCLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9076F2E71245329A00E760A7 /* CCLibrary.m */; };
+		90A638DE1243FB5700F3ABFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A638DD1243FB5700F3ABFA /* SystemConfiguration.framework */; };
+		90A638E51243FD7D00F3ABFA /* CCNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A638E41243FD7D00F3ABFA /* CCNetworkReachability.m */; };
+		90C9C53512419E3400C1FD62 /* CCOutlineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C9C53412419E3400C1FD62 /* CCOutlineViewCell.m */; };
+		90D822A112442588007F85C9 /* Violet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 90D822A012442588007F85C9 /* Violet.icns */; };
+		90F125F012468C6C00009460 /* CCPathMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F125EF12468C6C00009460 /* CCPathMonitor.m */; };
+		90F126AF1246A27600009460 /* CCDeviceGroupNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F126AE1246A27600009460 /* CCDeviceGroupNode.m */; };
+		90F126B31246A39500009460 /* CCDeviceItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F126B21246A39500009460 /* CCDeviceItemNode.m */; };
+		90F74E16124426B100143F50 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 90F74E15124426B100143F50 /* ReadMe */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Violet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Violet_Prefix.pch; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* Violet_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Violet_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Violet-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "Violet-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Violet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Violet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901523AE12416135003EAC45 /* CCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNode.h; sourceTree = "<group>"; };
+		901523AF12416135003EAC45 /* CCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNode.m; sourceTree = "<group>"; };
+		901523B1124161C8003EAC45 /* CCGroupNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGroupNode.h; sourceTree = "<group>"; };
+		901523B2124161C8003EAC45 /* CCGroupNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGroupNode.m; sourceTree = "<group>"; };
+		901523B41241622F003EAC45 /* CCItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCItemNode.h; sourceTree = "<group>"; };
+		901523B51241622F003EAC45 /* CCItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCItemNode.m; sourceTree = "<group>"; };
+		904FC6891242CB7900EFB59A /* BottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BottomBar.png; sourceTree = "<group>"; };
+		906284071243183300965E9F /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		9070B92A124169EC001F7510 /* CCOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOutlineView.h; sourceTree = "<group>"; };
+		9070B92B124169EC001F7510 /* CCOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOutlineView.m; sourceTree = "<group>"; };
+		9076F2E61245329A00E760A7 /* CCLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLibrary.h; sourceTree = "<group>"; };
+		9076F2E71245329A00E760A7 /* CCLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLibrary.m; sourceTree = "<group>"; };
+		90A638DD1243FB5700F3ABFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		90A638E31243FD7D00F3ABFA /* CCNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetworkReachability.h; sourceTree = "<group>"; };
+		90A638E41243FD7D00F3ABFA /* CCNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNetworkReachability.m; sourceTree = "<group>"; };
+		90C9C53312419E3400C1FD62 /* CCOutlineViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOutlineViewCell.h; sourceTree = "<group>"; };
+		90C9C53412419E3400C1FD62 /* CCOutlineViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCOutlineViewCell.m; sourceTree = "<group>"; };
+		90D822A012442588007F85C9 /* Violet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Violet.icns; sourceTree = "<group>"; };
+		90F125EE12468C6C00009460 /* CCPathMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPathMonitor.h; sourceTree = "<group>"; };
+		90F125EF12468C6C00009460 /* CCPathMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPathMonitor.m; sourceTree = "<group>"; };
+		90F126AD1246A27600009460 /* CCDeviceGroupNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDeviceGroupNode.h; sourceTree = "<group>"; };
+		90F126AE1246A27600009460 /* CCDeviceGroupNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDeviceGroupNode.m; sourceTree = "<group>"; };
+		90F126B11246A39500009460 /* CCDeviceItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDeviceItemNode.h; sourceTree = "<group>"; };
+		90F126B21246A39500009460 /* CCDeviceItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDeviceItemNode.m; sourceTree = "<group>"; };
+		90F74E15124426B100143F50 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				906284081243183300965E9F /* Quartz.framework in Frameworks */,
+				90A638DE1243FB5700F3ABFA /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77C8280B06725ACE000B614F /* AppDelegate.h */,
+				77C8280C06725ACE000B614F /* AppDelegate.m */,
+				90A638E31243FD7D00F3ABFA /* CCNetworkReachability.h */,
+				90A638E41243FD7D00F3ABFA /* CCNetworkReachability.m */,
+				9076F2E61245329A00E760A7 /* CCLibrary.h */,
+				9076F2E71245329A00E760A7 /* CCLibrary.m */,
+				90F125EE12468C6C00009460 /* CCPathMonitor.h */,
+				90F125EF12468C6C00009460 /* CCPathMonitor.m */,
+				906268CE12428D9F00275AB0 /* UI */,
+				90D8224A124416BD007F85C9 /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				906284071243183300965E9F /* Quartz.framework */,
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				90A638DD1243FB5700F3ABFA /* SystemConfiguration.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Violet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Violet */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				90F74E17124426CD00143F50 /* Other Files */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Violet;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Violet_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90D822A012442588007F85C9 /* Violet.icns */,
+				904FC6891242CB7900EFB59A /* BottomBar.png */,
+				8D1107310486CEB800E47090 /* Violet-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* Violet_DataModel.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		906268CE12428D9F00275AB0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9070B92A124169EC001F7510 /* CCOutlineView.h */,
+				9070B92B124169EC001F7510 /* CCOutlineView.m */,
+				90C9C53312419E3400C1FD62 /* CCOutlineViewCell.h */,
+				90C9C53412419E3400C1FD62 /* CCOutlineViewCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		90D8224A124416BD007F85C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				901523AE12416135003EAC45 /* CCNode.h */,
+				901523AF12416135003EAC45 /* CCNode.m */,
+				901523B1124161C8003EAC45 /* CCGroupNode.h */,
+				901523B2124161C8003EAC45 /* CCGroupNode.m */,
+				90F126AD1246A27600009460 /* CCDeviceGroupNode.h */,
+				90F126AE1246A27600009460 /* CCDeviceGroupNode.m */,
+				901523B41241622F003EAC45 /* CCItemNode.h */,
+				901523B51241622F003EAC45 /* CCItemNode.m */,
+				90F126B11246A39500009460 /* CCDeviceItemNode.h */,
+				90F126B21246A39500009460 /* CCDeviceItemNode.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		90F74E17124426CD00143F50 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F74E15124426B100143F50 /* ReadMe */,
+			);
+			name = "Other Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Violet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Violet" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Violet;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Violet;
+			productReference = 8D1107320486CEB800E47090 /* Violet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Violet" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Violet */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Violet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				904FC68A1242CB7900EFB59A /* BottomBar.png in Resources */,
+				90D822A112442588007F85C9 /* Violet.icns in Resources */,
+				90F74E16124426B100143F50 /* ReadMe in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* Violet_DataModel.xcdatamodel in Sources */,
+				901523B012416135003EAC45 /* CCNode.m in Sources */,
+				901523B3124161C8003EAC45 /* CCGroupNode.m in Sources */,
+				901523B61241622F003EAC45 /* CCItemNode.m in Sources */,
+				9070B92C124169EC001F7510 /* CCOutlineView.m in Sources */,
+				90C9C53512419E3400C1FD62 /* CCOutlineViewCell.m in Sources */,
+				90A638E51243FD7D00F3ABFA /* CCNetworkReachability.m in Sources */,
+				9076F2E81245329A00E760A7 /* CCLibrary.m in Sources */,
+				90F125F012468C6C00009460 /* CCPathMonitor.m in Sources */,
+				90F126AF1246A27600009460 /* CCDeviceGroupNode.m in Sources */,
+				90F126B31246A39500009460 /* CCDeviceItemNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Violet_Prefix.pch;
+				INFOPLIST_FILE = "Violet-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Violet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Violet_Prefix.pch;
+				INFOPLIST_FILE = "Violet-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Violet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Violet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Violet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
