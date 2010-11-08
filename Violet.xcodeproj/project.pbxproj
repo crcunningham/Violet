@@ -27,7 +27,7 @@
 		90F125F012468C6C00009460 /* CCPathMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F125EF12468C6C00009460 /* CCPathMonitor.m */; };
 		90F126AF1246A27600009460 /* CCDeviceGroupNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F126AE1246A27600009460 /* CCDeviceGroupNode.m */; };
 		90F126B31246A39500009460 /* CCDeviceItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F126B21246A39500009460 /* CCDeviceItemNode.m */; };
-		90F74E16124426B100143F50 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 90F74E15124426B100143F50 /* ReadMe */; };
+		90F74E16124426B100143F50 /* IconInfo in Resources */ = {isa = PBXBuildFile; fileRef = 90F74E15124426B100143F50 /* IconInfo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +68,7 @@
 		90F126AE1246A27600009460 /* CCDeviceGroupNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDeviceGroupNode.m; sourceTree = "<group>"; };
 		90F126B11246A39500009460 /* CCDeviceItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDeviceItemNode.h; sourceTree = "<group>"; };
 		90F126B21246A39500009460 /* CCDeviceItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDeviceItemNode.m; sourceTree = "<group>"; };
-		90F74E15124426B100143F50 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		90F74E15124426B100143F50 /* IconInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IconInfo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +213,7 @@
 		90F74E17124426CD00143F50 /* Other Files */ = {
 			isa = PBXGroup;
 			children = (
-				90F74E15124426B100143F50 /* ReadMe */,
+				90F74E15124426B100143F50 /* IconInfo */,
 			);
 			name = "Other Files";
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
 				904FC68A1242CB7900EFB59A /* BottomBar.png in Resources */,
 				90D822A112442588007F85C9 /* Violet.icns in Resources */,
-				90F74E16124426B100143F50 /* ReadMe in Resources */,
+				90F74E16124426B100143F50 /* IconInfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
